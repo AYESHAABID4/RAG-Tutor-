@@ -47,7 +47,7 @@ def extract_text_by_page(pdf_bytes: bytes) -> List[Dict]:
         pages.append({"page": i + 1, "text": text})
     return pages
 # --------------------------
-# PDF Extraction Chuncking
+# PDF  Chuncking
 # --------------------------
 def chunk_text(text: str, chunk_size: int = 300, overlap: int = 50) -> List[str]:
     words = text.split()
@@ -333,3 +333,4 @@ with tab2:
                     st.markdown("### ✂️ Fallback answer (extractive)")
                     st.write(short)
                     st.markdown(f"**Cited:** [Page {page}]")
+
