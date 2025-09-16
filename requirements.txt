@@ -1,6 +1,7 @@
 streamlit
 pypdf
 sentence-transformers
-chromadb
+chromadb==0.3.29
 numpy
 google-generativeai
+
