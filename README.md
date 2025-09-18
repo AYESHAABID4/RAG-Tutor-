@@ -1,4 +1,4 @@
-# RAG-Tutor-
+# 📘 RAG Tutor 
 RAG Tutor  – Book-based AI Learning Assistant
 
 ## Proposed Solution   
@@ -27,5 +27,15 @@ A **Retrieval-Augmented Generation (RAG)** system that:
 - Use no outside knowledge.  
 - Be concise and factual.  
 - Refuse if similarity score is too low.
+
+ 
+ ## 🌐 Deployment  
+
+The app is deployed on **Streamlit Cloud** and can be accessed at:https://ayesha-rag-tutor.streamlit.app/
+
+
+
+
+
 
   
